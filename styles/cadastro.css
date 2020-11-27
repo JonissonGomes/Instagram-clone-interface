@@ -16,15 +16,14 @@ a:hover{
     text-decoration: underline;
 }
 
-
 .container-center{
     background-color: white;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 2%;
     margin-left: 40%;
     margin-right: 40%;
     width: 18vw;
-    height: 41vh;
+    height: 58vh;
     border: 1px solid rgb(188, 187, 187);
 }
 
@@ -32,6 +31,39 @@ a:hover{
     width: 85%;
     margin-left: 7%;
     margin-right: 7%;
+}
+
+.content p{
+    margin-top: 0;
+    margin-left: 10%;
+    justify-content: center;
+    align-items: center;
+    font-size: 12pt;
+    font-weight: bold;
+    width: 85%;
+    color: gray;
+}
+
+.termos-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+div .termos-container a{
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+    font-size: 9pt;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.termos-container .termos{
+    margin-top: 5%;
+    font-size: 8pt;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .content a{
@@ -42,7 +74,6 @@ a:hover{
 .content img{
     width: 10vw;
     margin-top: 5%;
-    margin-bottom: 5%;
 }
 
 .content input[type=text]{
@@ -129,17 +160,26 @@ a:hover{
 }
 
 .button-conect button{
+    height: 40px;
+    padding: 0;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.button-conect button h4{
+    padding-top: 10px;
+}
+
 .button-conect img{
+    padding: 0;
     width: 15px;
     margin-right: 4%;
 }
 
 .button-conect a{
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 9pt;
     color: rgb(1, 144, 255);
