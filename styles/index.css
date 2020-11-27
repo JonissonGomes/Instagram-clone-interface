@@ -1,0 +1,215 @@
+body{
+    background-color: rgb(250, 250, 250);
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(69, 156, 249)
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    margin-top: 5%;
+}
+
+ 
+ .container-photo{
+     margin-top: 2%;
+     margin-left: 20%;
+ }
+
+ .container-photo img{
+     width: 30vw;
+ }
+
+ .container-left{
+    
+ }
+
+.container-center{
+    background-color: white;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 18vw;
+    height: 41vh;
+    border: 1px solid rgb(188, 187, 187);
+}
+
+.content {
+    width: 85%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.content a{
+    font-size: 11px;
+    font-weight: 400;
+}
+
+.content img{
+    width: 10vw;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.content input[type=text]{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 2px;
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+    width: 85%;
+    margin-bottom: 2%;
+    color: rgb(167, 167, 167);
+    outline: none;
+}
+
+.content input[type=text]:hover{
+    outline: 1px solid rgb(167, 167, 167);
+}
+
+.content input[type=password]{
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 2px;
+    padding: 8px 8px 8px 8px;
+    font-size: 12px;
+    width: 85%;
+    margin-bottom: 2%;
+    color: rgb(167, 167, 167);
+    outline: none;
+}
+
+.content input[type=password]:hover{
+    outline: 1px solid rgb(167, 167, 167);
+}
+
+.content button {
+    border: 1px solid rgb(167, 167, 167);
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    font-size: 14px;
+    font-weight: 600;
+    width: 90%;
+    border: none;
+    margin-bottom: 1px;
+    background-color: rgb(1, 144, 254);
+    color: white;
+    outline: none;
+}
+
+.content button:hover{
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgb(1, 150, 254);
+    outline: none;
+}
+
+.other{
+    align-items: center;
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 50%;
+    display: flex;
+}
+
+.other h3{
+    color: rgba(167, 167, 167, 0.571);
+    margin-bottom: 32px;
+}
+
+.other .left{
+    margin-right: 15%;
+}
+
+.other h4{
+    font-size: 13.6px;
+    color: rgb(167, 167, 167);
+}
+
+.other .right{
+    margin-left: 15%;
+}
+.conect-facebook{
+    align-items: center;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+}
+
+.conect-facebook img{
+    width: 20px;
+    margin-right: 5%;
+}
+
+.conect-facebook a{
+    text-decoration: none;
+    font-size: 9pt;
+    color: rgb(1, 144, 255);
+    font-weight: bold;
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 8px 8px 8px;
+    margin-top: 4%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 17.2vw;
+    border: 1px solid rgb(188, 187, 187);
+    font-size: 10px;
+    justify-content: center;
+}
+
+.option h3{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.option a{
+    font-size: 13px;
+    margin-left: 2%;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 18vw;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 40%;
+    width: 18vw;
+    justify-content: center;
+}
+
+
+.download img {
+    width: 12vh;
+    margin-right: 10px;
+}
